@@ -197,6 +197,10 @@ footer {
 
 @media screen and (max-width:640px) {
     
+    hr {
+        width: 85%;
+    }
+
     .top-bar {
         margin: 0px;
 
@@ -215,13 +219,13 @@ footer {
     }
 
     .content {
-        width: 50%;
+        width: 39%;
         margin-top: 145px;
 
     }
 
     .portfolio-icon {
-        margin-left: 120px;
+        margin-left: 70px;
 
     }
 
