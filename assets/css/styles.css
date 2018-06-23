@@ -1,4 +1,4 @@
-/*  */
+/* I'll be the roundabout The words will make you out 'n' out */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -109,7 +109,7 @@ ul#nav-links li {
 }
 
 ul#nav-links li:last-child {
-    border: solid #ffffff;
+    border: none;
 
 }
 
@@ -162,5 +162,72 @@ footer {
     border: solid #4aaaa5;
     border-width: 5px 0px 0px 0px;
     padding: 20px 0px 5px 0px;
+
+}
+
+@media screen and (max-width:980px) {
+
+    .content {
+        width: 75%;
+        margin-left: 10px;
+        
+    }
+
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    .top-bar {
+        width: 100%;
+        margin-left: 10px;
+
+    }
+    
+    nav {
+        float: none;
+        margin: 0;
+        padding-top: 30px; 
+
+    }
+
+
+}
+
+@media screen and (max-width:640px) {
+    
+    .top-bar {
+        margin: 0px;
+
+    }
+
+    h1, nav {
+        width: 100%;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    .content {
+        width: 50%;
+        margin-top: 145px;
+
+    }
+
+    .portfolio-icon {
+        margin-left: 120px;
+
+    }
+
+    .profilepic {
+        width: 90%;
+
+    }
 
 }
