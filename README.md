@@ -1,1 +1,2 @@
 # Responsive-Portfolio
+An update to my basic portfolio. Without using bootstrap, I've updated the CSS to respond to the device and viewport my site is viewed on. My site has also been added to my GitHub pages and is now live.
